@@ -1,0 +1,554 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "logo",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "info",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_token1",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_name1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_symbol1",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_price1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_circulation1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_token2",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_name2",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_symbol2",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_price2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_circulation2",
+						"type": "uint256"
+					}
+				],
+				"name": "addToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "appointExchangeInfo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "closePeriod",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token2",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "choose",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "exchangeToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "factoryIntroduction",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "factoryLogo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "factoryName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "list1",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "symbol",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "circulation",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "list1Info",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "token",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "symbol",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "price",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "circulation",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct tokenExchangeFactory.Token1",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "list2",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "symbol",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "circulation",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "list2Info",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "token",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "symbol",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "price",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "circulation",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct tokenExchangeFactory.Token2",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "list3",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "list3Info",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "user",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "amount",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "time",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct tokenExchangeFactory.userInfo",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "releasePeriod",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "rates",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "way",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "price1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "price2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_releasePeriod",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_closePeriod",
+						"type": "uint256"
+					}
+				],
+				"name": "setExchangeRate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "time",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"localhost/Solidity-version-contract-for-Aurora/FixExchange/TokenExchangeFactory.sol": "tokenExchangeFactory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"localhost/Solidity-version-contract-for-Aurora/FixExchange/TokenExchangeFactory.sol": {
+			"keccak256": "0xeb2d76ea30e0663dc2bbc9da8a81167f1d3da7fa1aa69f77f098094884702916",
+			"urls": [
+				"bzz-raw://16d1bc04e6104ded72ac4527e7592bfb0be2c65cfbff1a0afa915490a2c14562",
+				"dweb:/ipfs/QmZPiad8ECJ4LpmTFZjHgzyRVA5EM8YwotZ5J1WJ4pCtPt"
+			]
+		},
+		"localhost/Solidity-version-contract-for-Aurora/interface/IERC20.sol": {
+			"keccak256": "0x686665a5e5857dc9dd781b6fa9cd8dbe80e3677a1fce24ae8236879b1ebc32db",
+			"urls": [
+				"bzz-raw://7ac09e0137b3920186afea737fa4953319cdf4bb536a64175f0f365df8c4ee00",
+				"dweb:/ipfs/Qmd3UgNPsp4THdu44tX1P3b5tTXqGJZYgKddy6xyxqWhLw"
+			]
+		}
+	},
+	"version": 1
+}
