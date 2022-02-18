@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"localhost/Solidity-version-contract-for-Aurora/TransferHelper.sol": "TransferHelper"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"localhost/Solidity-version-contract-for-Aurora/TransferHelper.sol": {
+			"keccak256": "0x770026ccb38c55def36e4c854f567652f4794d0eb6b66f7117ed1864c3a4f225",
+			"license": "GPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://f21d05c3a4c211c5c6caba98f081cd1ed7e381264f54deb6e2c2440edb695a2c",
+				"dweb:/ipfs/QmYvSv5D66XFCtw32gynX5Z2PrNZRZDdEi3UemtwDZxpNY"
+			]
+		}
+	},
+	"version": 1
+}
