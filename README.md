@@ -69,7 +69,8 @@ RBE:
 0x260b623a5adbcA8A456F777edA50637AA1aBFC17
 
 Frontend docs:
-https://github.com/RainbowDAO/09-Near-MetaBUILD-DAO-Exchange-Pool/blob/main/Front-end-for-Solidity-version/README.md
+
+https://github.com/RainbowDAO/07-Near-MetaBUILD-DAO-Fixed-Exchange/blob/main/Front-end-for-Solidity-version/README.md
 
 Contract  docs: 
 https://github.com/RainbowDAO/07-Near-MetaBUILD-DAO-Fixed-Exchange/blob/main/Solidity-version-contract-for-Aurora/README.md
@@ -78,13 +79,13 @@ https://github.com/RainbowDAO/07-Near-MetaBUILD-DAO-Fixed-Exchange/blob/main/Sol
 
 ## 7.What is the RainbowCity Foundation？
 
+Headquartered in Singapore, RainbowCity Foundation is a non-profit foundation founded by Mr. Kunyuan, which mainly engages in the incubation and investment of the crypto ecosystem. Being a big fan of Bitcoin, Mr. Kunyuan worships Satoshi Nakamoto and dedicates himself to the spread of Satoshi Nakamoto’s great ideas of decentralization. He once put forward the concept of “Bit Civilization” for the first time in the world in July 2021 at the Bitcointalk Forum established by Satoshi Nakamoto. Moreover, he wrote over 50 articles to promote Bitcoin, in the hope of fostering the development of the encryption industry worldwide and practicing the true Bitcoin spirit.
 
-RainbowCity Foundation is a non-profit foundation initiated and founded by Mr. RainbowKun. Headquartered in Singapore, Asia, it mainly engages in the incubation and investment of the crypto ecosystem. Mr. RainbowKun himself is a loyal fan of Bitcoin and a believer of Satoshi Nakamoto, dedicated to the spread of Satoshi Nakamoto's decentralized ideas. He once put forward the concept of "Bit Civilization" for the first time in the world in July 2021 at the Bitcointalk Forum established by Satoshi Nakamoto , hoping to promote the development of the encryption industry worldwide and practice the true Bitcoin spirit.
+Mr. Kunyuan has had rich experiences in the crypto world. At one time, he was the highest community leader of FCoin, the most influential community exchange in the Chinese world. In November 2018, in a referendum on the FCoin exchange, Mr. Kunyuan was elected the first community committee member and then appointed vice Chairman to fully preside over the work of the FCoin community.
 
+Mr. Kunyuan believes that a super economic powerhouse will emerge in the mankind history in the future; a crypto world which is constructed in the form of decentralized protocols that transform all different decentralized behaviors into a unified economy. He believes it will ultimately become the infrastructure of human civilization and this is in which the RainbowCity foundation originates from this belief.
 
-Mr. Rainbow Kun believes that in the crypto world, human civilization will have an unprecedented super economy in the future. It is constructed in the form of a decentralized protocol, which puts different and decentralized economic behaviors into a unified economy, and truly becomes the infrastructure of future human civilization in the future. The Rainbow city Foundation was established under this background.
-
-The RainbowCity Foundation plans to invest in 7 major areas in the next ten years, including Rainbow DeFi, Rainbow Investment, Rainbow Culture, Rainbow Network, Rainbow Industry, Rainbow Education and Rainbow R&D. Strive to become a super economy with a market value of one trillion US dollars. The RainbowDAO Protocol is the first project launched by the Rainbowcity Foundation to build the infrastructure of the DAO ecosystem and contribute our wisdom and strength to the development of the global DAO career.
+The RainbowCity Foundation aims to invest in seven major industries in the following ten years, including Rainbow DeFi, Rainbow Investment, Rainbow Culture, Rainbow Network, Rainbow Industry, Rainbow Education and Rainbow R&D. It strives to become a super economic hub with market value worth one trillion US dollars.
 
 
 ## 8.Project social media: 
